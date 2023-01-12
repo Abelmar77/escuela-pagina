@@ -28,6 +28,7 @@ text-decoration:none;
 }
 
 
+
   .video {
 	position: fixed;
 	width: 100%;
@@ -81,5 +82,15 @@ text-decoration:none;
 	text-transform: uppercase;
 	width: 100%;
 }
+
+
+.social-icons a{
+	font-style: italic;
+margin: 0 0 0 5px;
+text-decoration:none;
+color: #ffffff;
+
+}
+
 
 
