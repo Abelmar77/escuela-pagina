@@ -1,7 +1,6 @@
 body{
 
 	color: #ffffff;
-
 }
 .contenedor{
 padding: 15px;
@@ -27,8 +26,6 @@ text-decoration:none;
 
 }
 
-
-
   .video {
 	position: fixed;
 	width: 100%;
@@ -44,7 +41,7 @@ text-decoration:none;
 #maincontent_container {
 
 	text-align:left;
-	margin: 10% 10% ;
+	margin: 10% 0 4% 10% ;
 
 }
 
@@ -95,6 +92,52 @@ text-decoration:none;
 color: #ffffff;
 
 }
+
+@media (max-width: 767px) {
+    .video {
+        display: none;
+    }
+    body {
+        background-image: url("imagenes/latino.jpg");
+        background-size: cover ;
+    }
+
+
+
+	#maincontent_container {
+	display: flex; 
+	flex-direction: column;
+	
+	justify-content: center;
+	width: auto;
+	margin: 15% 10%;
+	
+	}
+	#maincontent_container h1, h2, h3 {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		line-height: 130%;
+	
+	}
+
+	.boton{
+
+		margin: 20% 0 0 0;
+	
+	}
+	
+
+
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video {
+        width:100%;
+        height: auto;
+    }
+}
+
 
 
 
