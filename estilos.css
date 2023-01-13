@@ -49,13 +49,17 @@ text-decoration:none;
 }
 
 #maincontent_container h1, h2, h3 {
-	font-size: 2rem
+	font-size: 2rem;
+	text-transform: uppercase;
+	line-height: 130%;
 
 }
 
+
+
 .boton{
 
-    margin: 10%;
+    margin: 5% 0 0 0;
     padding: 13px 100px;
     font-size: 18px;
     font-weight: bold;
